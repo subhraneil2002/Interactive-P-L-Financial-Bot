@@ -1,0 +1,9 @@
+pdfplumber
+pandas
+torch
+sentence-transformers
+pinecone-client
+cohere
+streamlit
+gradio
+docker
