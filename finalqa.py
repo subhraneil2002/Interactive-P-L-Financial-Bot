@@ -60,7 +60,7 @@ def query_financial_data(query, top_k=5):
 
 def generate_response(query, context):
     """Generates a response using Cohere."""
-    prompt = f"""You are a financial analyst. Answer based on the given data.
+    prompt = f"""You are a financial analyst. Answer based on the given data. Give a simple answer with proper mathematical breakdowns.
     Context:
     {context}
 
