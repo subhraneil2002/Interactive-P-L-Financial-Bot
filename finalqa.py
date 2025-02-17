@@ -60,7 +60,11 @@ def query_financial_data(query, top_k=5):
 
 def generate_response(query, context):
     """Generates a response using Cohere."""
-    prompt = f"""You are a financial analyst. Answer based on the given data with proper mathematical breakdowns explaining the necessary details.
+    prompt = f"""You are a financial analyst. Based on the provided data, generate a detailed financial breakdown with precise mathematical calculations wherever necessary, ensuring clarity in all components. 
+    Your response should be structured, crisp, and well-explained, showing all relevant details, amounts, and formulas used. 
+    If a specific question is asked, ensure the answer includes a step-by-step numerical breakdown with a logical flow. 
+    Format the response for easy readability with tables, bullet points, and headings where necessary.
+    
     Context:
     {context}
 
