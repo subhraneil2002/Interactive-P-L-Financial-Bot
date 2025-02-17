@@ -64,8 +64,7 @@ def generate_response(query, context):
     Ensure that all amounts are correctly formatted in crores and presented clearly. 
     If comparisons are required, explicitly mention the difference and percentage change. 
     Use proper financial terminology and ensure clarity in every component. 
-    The response should be structured with tables, bullet points, and headings where necessary for easy readability. 
-    Avoid incomplete or fragmented text; provide well-formed and complete sentences.
+    provide well-formed and complete sentences.
     
     Context:
     {context}
